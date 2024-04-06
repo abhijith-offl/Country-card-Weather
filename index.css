@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(35, 35, 112);
+}
+
+.card-body {
+    text-align: center;
+    background-image: linear-gradient(to right, #D5C49F, #888977, #485956);
+}
+
+img {
+    width: 250px;
+    height: 130px;
+}
+
+.card-header,
+p,
+a {
+    color: white;
+    font-family: 'Abel';
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+.content{
+    margin-top:10px;
+}
+
+a {
+    border: 1px solid white;
+    font-size: small;
+    margin: 20px;
+}
+
+a:hover {
+    border: 1px solid white;
+    font-weight: bold;
+    color: white;
+}
